@@ -1,3 +1,81 @@
 <resources>
     <string name="app_name">Project_UTS_Kel3</string>
+
+    <!-- Auth -->
+    <string name="title_login">Masuk ke Akun</string>
+    <string name="subtitle_login">Aplikasi Buku Tamu Digital Offline-First</string>
+    <string name="title_register">Buat Akun Baru</string>
+    <string name="subtitle_register">Kelola buku tamu pribadi Anda dengan aman</string>
+    <string name="label_username">Username</string>
+    <string name="label_password">Password</string>
+    <string name="hint_username">Masukkan username</string>
+    <string name="hint_password">Minimal 6 karakter</string>
+    <string name="btn_login">Masuk</string>
+    <string name="btn_register">Daftar</string>
+    <string name="prompt_to_register">Belum punya akun? Daftar di sini</string>
+    <string name="prompt_to_login">Sudah punya akun? Masuk di sini</string>
+
+    <!-- Validation & Auth Messages -->
+    <string name="error_username_required">Username wajib diisi</string>
+    <string name="error_password_required">Password wajib diisi</string>
+    <string name="error_password_min_length">Password minimal 6 karakter</string>
+    <string name="error_username_taken">Username sudah digunakan</string>
+    <string name="error_invalid_credentials">Username atau password salah</string>
+    <string name="success_register">Registrasi berhasil! Silakan login.</string>
+    <string name="error_register_failed">Gagal membuat akun, silakan coba lagi</string>
+
+    <!-- Dashboard -->
+    <string name="greeting_welcome">Selamat Datang,</string>
+    <string name="title_rekap_hari_ini">Tamu Hari Ini</string>
+    <string name="unit_orang">Tamu</string>
+    <string name="desc_rekap_info">Total kunjungan tercatat hari ini</string>
+    <string name="label_menu_utama">Menu Utama</string>
+    <string name="btn_menu_list">Daftar Tamu</string>
+    <string name="desc_menu_list">Kelola semua riwayat tamu</string>
+    <string name="btn_menu_add">Catat Tamu Baru</string>
+    <string name="desc_menu_add">Tambah data pengunjung baru</string>
+    <string name="btn_logout">Keluar Akun</string>
+    <string name="title_recent_guests">Kunjungan Terakhir</string>
+    <string name="btn_view_all">Lihat Semua</string>
+    <string name="empty_recent_guests">Belum ada riwayat kunjungan tamu</string>
+
+    <!-- Guest List -->
+    <string name="title_guest_list">Daftar Buku Tamu</string>
+    <string name="hint_search_guest">Cari nama tamu...</string>
+    <string name="empty_guest_list">Belum ada tamu yang tercatat</string>
+    <string name="empty_guest_desc">Klik tombol + di bawah untuk menambahkan tamu pertama Anda</string>
+    <string name="empty_search_result">Tamu tidak ditemukan</string>
+    <string name="empty_search_desc">Tidak ada tamu yang cocok dengan pencarian</string>
+
+    <!-- Guest Form -->
+    <string name="title_add_guest">Tambah Tamu Baru</string>
+    <string name="title_edit_guest">Edit Data Tamu</string>
+    <string name="label_nama_tamu">Nama Lengkap</string>
+    <string name="label_alamat_tamu">Alamat / Asal Instansi</string>
+    <string name="label_keperluan_tamu">Keperluan Kunjungan</string>
+    <string name="hint_nama_tamu">Masukkan nama tamu</string>
+    <string name="hint_alamat_tamu">Masukkan alamat atau kota</string>
+    <string name="hint_keperluan_tamu">Contoh: Undangan, Bertemu Pimpinan, Koordinasi</string>
+    <string name="btn_save_guest">Simpan Data Tamu</string>
+    <string name="btn_update_guest">Simpan Perubahan</string>
+    <string name="btn_delete_guest">Hapus Tamu</string>
+
+    <!-- Form Validation -->
+    <string name="error_name_required">Nama wajib diisi</string>
+    <string name="error_address_required">Alamat wajib diisi</string>
+    <string name="error_purpose_required">Keperluan wajib diisi</string>
+    <string name="success_guest_saved">Data tamu berhasil disimpan</string>
+    <string name="success_guest_updated">Data tamu berhasil diperbarui</string>
+    <string name="success_guest_deleted">Data tamu berhasil dihapus</string>
+    <string name="error_guest_save_failed">Gagal menyimpan data tamu</string>
+    <string name="error_guest_not_found">Data tamu tidak ditemukan</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_logout_title">Konfirmasi Keluar</string>
+    <string name="dialog_logout_message">Apakah Anda yakin ingin keluar dari akun ini?</string>
+    <string name="dialog_delete_title">Konfirmasi Hapus</string>
+    <string name="dialog_delete_message">Apakah Anda yakin ingin menghapus data tamu ini? Tindakan ini tidak dapat dibatalkan.</string>
+    <string name="dialog_cancel">Batal</string>
+    <string name="dialog_confirm_logout">Ya, Keluar</string>
+    <string name="dialog_confirm_delete">Ya, Hapus</string>
 </resources>

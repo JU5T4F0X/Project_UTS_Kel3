@@ -29,7 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:background="?attr/colorSurfaceVariant"
+            android:background="@drawable/bg_search_bar"
             app:iconifiedByDefault="false"
             app:queryHint="Cari nama atau keperluan tamu..." />
 

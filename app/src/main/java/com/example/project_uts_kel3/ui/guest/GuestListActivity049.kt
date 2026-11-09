@@ -1,4 +1,4 @@
-package com.example.project_uts_kel3.ui.guest
+package com.example.aplikasiuts.ui.guest
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,12 +7,12 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.project_uts_kel3.data.database.AppDatabase070
-import com.example.project_uts_kel3.data.model.Guest070
-import com.example.project_uts_kel3.pref.SessionPrefs203
-import com.example.project_uts_kel3.data.repository.GuestRepository084
-import com.example.project_uts_kel3.databinding.ActivityGuestList049Binding
-import com.example.project_uts_kel3.ui.adapter.GuestAdapter049
+import com.example.aplikasiuts.data.database.AppDatabase070
+import com.example.aplikasiuts.data.model.Guest070
+import com.example.aplikasiuts.data.pref.SessionPrefs203
+import com.example.aplikasiuts.data.repository.GuestRepository084
+import com.example.aplikasiuts.databinding.ActivityGuestList049Binding
+import com.example.aplikasiuts.ui.adapter.GuestAdapter049
 import kotlinx.coroutines.launch
 
 class GuestListActivity049 : AppCompatActivity() {
