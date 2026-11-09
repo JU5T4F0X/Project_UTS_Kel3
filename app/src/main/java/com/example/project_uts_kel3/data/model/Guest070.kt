@@ -19,7 +19,7 @@ import androidx.room.PrimaryKey
 data class Guest070(
     @PrimaryKey(autoGenerate = true) val id070: Int = 0,
     @ColumnInfo(name = "user_id070") val user_id070: Int,
-    @Coapp/src/main/java/com/examplumnInfo(name = "nama_070") val nama070: String,
+    @ColumnInfo(name = "nama_070") val nama070: String,
     @ColumnInfo(name = "alamat_070") val alamat070: String,
     @ColumnInfo(name = "keperluan_070") val keperluan070: String,
     @ColumnInfo(name = "timestamp_070") val timestamp070: Long

@@ -1,12 +1,12 @@
-package com.example.project_uts_kel3.ui.adapter
+package com.example.aplikasiuts.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.project_uts_kel3.data.model.Guest070
-import com.example.project_uts_kel3.databinding.ItemGuest049Binding
+import com.example.aplikasiuts.data.model.Guest070
+import com.example.aplikasiuts.databinding.ItemGuest049Binding
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
